@@ -1,5 +1,6 @@
 #lang racket
-
+; Aufgabe 2.3
+; Übergebe Gradzahl und erhalte Himmelsrichtung
 (define (grad->himmelsrichtung x)
   (cond
     ((<= x 11.25) "N")
